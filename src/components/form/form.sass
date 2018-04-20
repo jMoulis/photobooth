@@ -1,0 +1,49 @@
+@import 'showPassword.sass'
+
+input[type="text"], input[type="email"], input[type="password"]
+  background-color: rgba(255, 255, 255, .1)
+  border: none
+  padding: .3rem 1.3rem
+  font-size: 1rem
+  width: 100%
+  color: white
+select
+  color: white
+  opacity: .5
+  background-color: rgba(255, 255, 255, .1)
+  padding: .5rem 1rem
+  font-size: 1rem
+  border: none
+  width: 100%
+  & option
+    background-color: rgb(64, 64, 64)
+    text-shadow: 0 1px 0 rgba(64, 64, 64, 0.4)
+
+button
+  background-color: transparent
+  padding: 1rem
+  width: 100%
+  font-weight: bold
+  font-size: 1.3rem
+  border: 1px solid rgb(255, 255, 255)
+  min-height: 62.5px
+  position: relative
+.form-control
+  margin-bottom: .7rem
+  position: relative
+  button[name="send"], button[name="signin"]
+    color: rgb(242, 203, 29)
+    border-color: rgb(242, 203, 29)
+    svg
+      position: absolute
+      width: 50px
+      height: 50px
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      margin: auto
+  button[name="cancel"]
+    color: rgb(255, 255, 255)
+    border-color: rgb(255, 255, 255)
+    opacity: .5

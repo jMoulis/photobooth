@@ -1,0 +1,66 @@
+#mask-picker
+  padding: 0
+  &--content
+    background: url("/img/mask_picker_bg.png") black
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100%
+    position: relative
+    background-position: bottom
+  header
+    padding: 1rem 1rem
+    #headings
+      line-height: 2rem
+      padding: 2rem 0 2rem 3rem
+      position: relative
+      span
+        display: block
+        position: absolute
+        top: 60px
+        z-index: 5
+        left: 15px
+        width: 15px
+    h2
+      font-weight: normal
+      margin: 0
+      font-size: 2.3rem
+    a
+      padding-bottom: 3.7rem
+      padding-right: .3rem
+
+.mask-picker-btn-container
+  position: absolute
+  .btn-mask-picker
+    border-color: #f2cb1d
+    background: transparent
+    color: #f2cb1d
+    width: 150px
+    padding: .5rem
+.stripe
+  display: block
+  width: 30px
+  height: 1px
+  background-color: #f2cb1d
+  border: none
+  position: absolute
+#mask-picker--content
+  .zone-clickable
+    position: absolute
+    width: 100%
+    height: 50%
+    &--1
+      bottom: 0
+    &--2
+      top: 0
+#mask-picker-btn-container-1
+  bottom: 60px
+  left: 50px
+  .stripe
+    right: -30px
+    top: 25px
+#mask-picker-btn-container-2
+  top: 120px
+  right: 50px
+  .stripe
+    left: -30px
+    top: 25px
